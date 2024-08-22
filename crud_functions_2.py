@@ -87,20 +87,3 @@ if __name__ == "__main__":
 
     product_list = get_all_products()
     print(product_list)
-
-    # initiate_db()
-    #
-    # connection = sqlite3.connect(FILE_DB)
-    # cursor = connection.cursor()
-    #
-    # cursor.execute("INSERT INTO Users(username, email, age, balance) VALUES(?, ?, ?, ?)",
-    #                ("pvt_Pyle1", "test1@gmail.com", 40, 1000))
-    # cursor.execute("INSERT INTO Users(username, email, age, balance) VALUES(?, ?, ?, ?)",
-    #                ("pvt_Pyle2", "test2@gmail.com", 39, 1000))
-    # cursor.execute("INSERT INTO Users(username, email, age, balance) VALUES(?, ?, ?, ?)",
-    #                ("pvt_Pyle3", "test3@gmail.com", 25, 1000))
-    # cursor.execute("INSERT INTO Users(username, email, age, balance) VALUES(?, ?, ?, ?)",
-    #                ("pvt_Pyle4", "test4@gmail.com", 52, 1000))
-    #
-    # connection.commit()
-    # connection.close()
