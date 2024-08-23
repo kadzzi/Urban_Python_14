@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d67f4a6-1937-4661-b639-c1aec6a4c71d" name="Changes" comment="added module_14_3.py, prod_imgs">
-      <change afterPath="$PROJECT_DIR$/crud_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_14_4.py" afterDir="false" />
+    <list default="true" id="5d67f4a6-1937-4661-b639-c1aec6a4c71d" name="Changes" comment="edited crud_functions_2.py deleted old debug code for users in DB">
+      <change beforePath="$PROJECT_DIR$/.idea/Urban_Python_14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Urban_Python_14.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,24 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.crud_functions.executor": "Run",
-    "Python.module_14_1.executor": "Run",
-    "Python.module_14_2.executor": "Run",
-    "Python.module_14_3.executor": "Run",
-    "Python.module_14_4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.crud_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.crud_functions_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_14_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_14_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_14_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_14_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_14_5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dmitry\PycharmProjects\Urban_Python_14" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.module_14_1">
     <configuration name="module_14_1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Urban_Python_14" />
       <option name="ENV_FILES" value="$PROJECT_DIR$/.venv/Scripts" />
@@ -180,13 +182,40 @@
       <option name="project" value="LOCAL" />
       <updated>1724277728778</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added module_14_4.py, crud_functions.py, products.db">
+      <option name="closed" value="true" />
+      <created>1724313634608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724313634608</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added module_14_5.py, crud_functions_2.py, telegram_bot_DB.db">
+      <option name="closed" value="true" />
+      <created>1724328502038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724328502038</updated>
+    </task>
+    <task id="LOCAL-00007" summary="edited crud_functions_2.py deleted old debug code for users in DB">
+      <option name="closed" value="true" />
+      <created>1724328675648</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724328675648</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added module_14_1.py, not_telegram.db" />
     <MESSAGE value="added module_14_2.py, not_telegram_2.db" />
     <MESSAGE value="added module_14_3.py, prod_imgs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added module_14_3.py, prod_imgs" />
+    <MESSAGE value="added module_14_4.py, crud_functions.py, products.db" />
+    <MESSAGE value="added module_14_5.py, crud_functions_2.py, telegram_bot_DB.db" />
+    <MESSAGE value="edited crud_functions_2.py deleted old debug code for users in DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited crud_functions_2.py deleted old debug code for users in DB" />
   </component>
 </project>

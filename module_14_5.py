@@ -9,7 +9,7 @@ from crud_functions_2 import is_included, add_user, get_all_products
 product_list = get_all_products()
 
 
-api = ''
+api = '7040296994:AAFSywhWEgpoJdMVBj5NR_aT3B_6VEpCAlE'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
@@ -81,7 +81,7 @@ async def set_email(message, state):
 
 
 @dp.message_handler(state=RegistrationState.age)
-async def set_age(message, state):
+async def set_age_db(message, state):
     await state.update_data(age=int(message.text))
     data = await state.get_data()
     add_user(data['username'], data['email'], data['age'])
